@@ -1,0 +1,76 @@
+/* components/CenteredMenu.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column; /* Default for mobile */
+}
+
+.centeredMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  padding: 20px;
+  size-adjust: 90px;
+
+  
+}
+
+.menu a:focus,
+.menu a:active {
+  outline: none;
+}
+
+/* Remove underlines from anchor tags in the menu */
+.menu a {
+  text-decoration: none;
+}
+
+
+.menuList {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.menuList li {
+  margin: 10px 0;
+  color: #000;
+}
+
+
+
+/* Increase font size for menu labels */
+.menuList li label {
+  font-size: 50px;
+  color: #050101; /* Adjust the font size as needed */
+}
+
+
+.subMenuList li label {
+  font-size: 30px;
+  color: #050101; /* Adjust the font size as needed */
+}
+
+
+.menuList li input[type="radio"] {
+  width: 40px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+
+.subMenuList li input[type="radio"] {
+  width: 15px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; /* Switch to row layout on desktop */
+    justify-content: space-between; /* Distribute items horizontally */
+  }
+}
+
+
+

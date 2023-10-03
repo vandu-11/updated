@@ -1,0 +1,173 @@
+/* ShoppingCarts.css */
+
+/* Layout */
+.top-bar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .top-bar button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .wishlist-icon,
+  .cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .cart-count {
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  /* Product Listing */
+  .item-list {
+    margin: 20px;
+  }
+  
+  .product-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+  }
+  
+  .product-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .product-rating {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .product-info button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Shopping Cart */
+  .cart {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+/* Styling for Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Styling for Wishlist Icon */
+  .wishlist-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #007bff; /* Change the color to match your design */
+  }
+  
+  /* Styling for Cart Icon */
+  .cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .cart-count {
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+    

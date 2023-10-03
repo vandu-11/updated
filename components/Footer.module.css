@@ -1,0 +1,20 @@
+/* Footer styles */
+.footer {
+    background-color: hsl(0, 36%, 95%); /* Background color */
+    color: #170303bb; /* Text color */
+    padding: 10px; /* Padding around the content */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style for the email and contact number */
+  .footer p {
+    margin: 5px 0; /* Add some spacing between paragraphs */
+  }
+  
+  /* Style for links in the footer (if needed) */
+  .footer a {
+    color: #0a0202c5; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 50px; /* Add spacing between links */
+  }
+  
